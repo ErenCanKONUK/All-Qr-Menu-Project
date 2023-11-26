@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/_a1a8429.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(1, 1, 1);
+    text-align: center;
+}
+
+.container{
+    background-color:wheat;
+    opacity: 0.6;
+    width: 70%;
+    margin: 50px auto;
+    max-width: 400px;
+    /* justify-content: center; /* Yatayda ortala */
+    align-items: center; */
+}
+h1{
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h3{
+    margin: 10px;
+    /* font-family: Arial, Helvetica, sans-serif */
+    font-style: italic;
+}
+.est{
+    font-style: italic;
+    margin: 5px;
+    font-size: 1rem; 
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.div li{
+    display: inline;
+    margin-top: 7px;
+}
+.section{
+    padding: 0 10px;
+}
+.visited{
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.subt{
+    font-size: 12px;
+    margin: 5px 0px;
+    padding-bottom: 7px;
+}
+hr{
+    background-color: rgb(222, 18, 18);
+    height: 5px;
+    margin: 5px;
+}
+i{
+    margin: 7px 0;
+}
